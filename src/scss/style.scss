@@ -1,0 +1,72 @@
+@import "fonts";
+@import "normalize";
+@import "var";
+
+.pre-header {
+    width: 100%;
+    // .pre-header__inner
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 5px;
+    }
+
+    // .pre-header__main
+
+    &__main {
+        display: flex;
+        div{
+            padding-right: 30px;
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+        
+    }
+
+    // .pre-header__links
+
+    &__links {
+        display: flex;
+        align-items: center;
+        ul{
+            li{
+                background-color: var(--links-color);
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    // .pre-header__menu
+
+    &__menu {
+    }
+
+    // .pre-header__menu-items
+
+    &__menu-items {
+    }
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.logo a picture img{
+    max-width: 80px;
+    height: auto;
+}
+.not-list ul, .not-list nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.seacher {
+
+    // .seacher__content
+
+    &__content {
+    }
+}
